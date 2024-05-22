@@ -1,0 +1,48 @@
+/*common css start*/
+ 
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 900px;}
+}
+.box-1 {
+  width: 200px;
+  height: 100px;
+  background: rgb(97, 9, 212);
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function: linear;
+}
+.box-2 {
+  width: 200px;
+  height: 100px;
+  background: rgb(3, 128, 70);
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function:ease;
+}
+.box-3 {
+  width: 200px;
+  height: 100px;
+  background: rgb(92, 3, 73);
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-timing-function:ease-in;
+}
+.box-4 {
+  width: 200px;
+  height: 100px;
+  background: rgb(126, 139, 5);
+  position: relative;
+  animation: mymove 3s infinite;
+  animation-timing-function:ease-out;
+}
+.box-5{
+  width: 200px;
+  height: 100px;
+  background: rgba(198, 241, 5, 0.712);
+  position: relative;
+  animation: mymove 06s infinite;
+  animation-timing-function:ease-in-out;
+}
+
+/*common css end/
